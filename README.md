@@ -1,5 +1,6 @@
 # Titanic
 # Titanic Passengers Dataset Analysis
+![df0gjg6-4b1b7525-9a79-43c3-b27e-58371db4fb94](https://github.com/shridharkamathe/Titanic/assets/124047047/0063beb0-d567-4fbf-af19-d4bda8502d31)
 
 This repository contains an analysis of the Titanic passengers dataset, focusing on the correlation between various parameters such as passenger class, gender, and age for survival rate. Additionally, a Power BI dashboard has been created to visualize the findings.
 
