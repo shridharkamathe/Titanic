@@ -8,6 +8,40 @@ This repository contains an analysis of the Titanic passengers dataset, focusing
 
 The dataset used for this analysis is the famous Titanic dataset, which includes information about passengers aboard the RMS Titanic. It provides details such as passenger class, gender, age, and survival status. The dataset is available in CSV format and can be found [here](https://www.kaggle.com/c/titanic/data).
 
+## Dataset Description
+
+Overview
+
+The data has been split into two groups:
+
+training set (train.csv)
+test set (test.csv)
+The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. You can also use feature engineering to create new features.
+
+The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+
+We also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
+
+<img width="788" alt="Screenshot 2023-07-04 at 11 43 50 AM" src="https://github.com/shridharkamathe/Titanic/assets/124047047/faa4c598-2283-47b4-a3cb-106b23d0913c">
+
+Variable Notes
+
+pclass: A proxy for socio-economic status (SES)
+1st = Upper
+2nd = Middle
+3rd = Lower
+
+age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+
+sibsp: The dataset defines family relations in this way...
+Sibling = brother, sister, stepbrother, stepsister
+Spouse = husband, wife (mistresses and fiancés were ignored)
+
+parch: The dataset defines family relations in this way...
+Parent = mother, father
+Child = daughter, son, stepdaughter, stepson
+Some children travelled only with a nanny, therefore parch=0 for them.
+
 ## Analysis
 
 The analysis aims to uncover insights into the factors that influenced survival rates among Titanic passengers. The following correlations are examined:
